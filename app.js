@@ -54,7 +54,7 @@ undoButton.addEventListener("click", () => { sampleGeneration++; stopMoving(); c
 sampleButton.addEventListener("click", async () => {
   const generation = ++sampleGeneration;
   sampleButton.disabled = true;
-  const img = new Image(); img.src = "assets/mascot-native-64.png";
+  const img = new Image(); img.src = "assets/mascot-native-64.png?v=8278f9fb74bf";
   try { await img.decode(); if (generation !== sampleGeneration) return; stopMoving(); remember(); context.clearRect(0,0,64,64); context.drawImage(img,0,0,64,64); update(); message.textContent = "看板ペットがきたよ！ 描き足しても、いいんだよ。"; }
   catch { message.textContent = "お手本を読み込めませんでした。もう一度ためしてね。"; }
   finally { sampleButton.disabled = false; }
