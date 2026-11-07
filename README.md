@@ -3,6 +3,7 @@
 「おえかきペット」のプロモーションページです。
 
 - 公開URL: https://ki-84.github.io/paint-pet-support/
+- App Store: https://apps.apple.com/jp/app/id6829127610（iPhone・iPad、iOS / iPadOS 27以降）
 - GitHub Pages: `main` ブランチのルート `/` から公開
 - ビルド不要。`index.html`、`style.css`、`app.js`、`assets/` がサイト本体
 
